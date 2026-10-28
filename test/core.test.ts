@@ -67,3 +67,11 @@ describe("eval regression gate", () => {
     expect(r.holdout.meanF1).toBeGreaterThanOrEqual(0.6); expect(r.holdout.meanF1).toBeGreaterThan(r.holdout.naiveEvery90sF1);
   }, 30000);
 });
+
+describe("sdk default fetch", () => {
+  it("does not call fetch with the client as `this` (browser Illegal invocation regression)", async () => {
+    const orig = globalThis.fetch; let self: unknown = "unset";
+    globalThis.fetch = function (this: unknown, u: any, i: any) { self = this; return handleApi(new Request(u, i)); } as any;
+    try { await new VideoToData({ baseUrl: "https://x" }).extract(demo); expect(self).not.toBeInstanceOf(VideoToData); } finally { globalThis.fetch = orig; }
+  });
+});

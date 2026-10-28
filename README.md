@@ -37,4 +37,4 @@ x.chapters.forEach(c => console.log(c.start, c.title));
 A test fails CI if holdout F1 drops below 0.6 or stops beating the naive baseline. Synthetic topics are lexically clean, so expect lower scores on real meetings.
 
 ## Develop
-`npm ci && npm test` (16 tests, incl. a fast-check property on the parser) · `npm run build` → `dist/worker.js` (Cloudflare Worker). Deploys and rollback points: [DEPLOYS.md](DEPLOYS.md).
+`npm ci && npm test` (17 tests, incl. a fast-check property on the parser) · `npm run build` → `dist/worker.js` (Cloudflare Worker). Deploys and rollback points: [DEPLOYS.md](DEPLOYS.md).
