@@ -1,0 +1,389 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:08.000
+<v Ben>The brand and seo need another review.
+
+00:00:08.000 --> 00:00:14.000
+<v Ana>I looked at the newsletter numbers and the funnel changed.
+
+00:00:14.000 --> 00:00:22.000
+<v Chloe>Can we compare content against last year's newsletter?
+
+00:00:22.000 --> 00:00:28.000
+<v Chloe>I looked at the funnel numbers and the content changed.
+
+00:00:28.000 --> 00:00:32.000
+<v Ben>Can we compare newsletter against last year's funnel?
+
+00:00:32.000 --> 00:00:37.000
+<v Ben>I looked at the funnel numbers and the seo changed.
+
+00:00:37.000 --> 00:00:43.000
+<v Ana>Our campaign plan depends on the seo this month.
+
+00:00:43.000 --> 00:00:50.000
+<v Ana>Our audience plan depends on the newsletter this month.
+
+00:00:50.000 --> 00:00:55.000
+<v Ana>Our funnel plan depends on the launch this month.
+
+00:00:55.000 --> 00:01:02.000
+<v Chloe>The campaign and campaign need another review.
+
+00:01:02.000 --> 00:01:06.000
+<v Ana>I looked at the launch numbers and the content changed.
+
+00:01:06.000 --> 00:01:13.000
+<v Ana>I looked at the audience numbers and the content changed.
+
+00:01:13.000 --> 00:01:18.000
+<v Ben>The content and seo need another review.
+
+00:01:18.000 --> 00:01:25.000
+<v Chloe>I looked at the seo numbers and the audience changed.
+
+00:01:25.000 --> 00:01:29.000
+<v Ana>I looked at the brand numbers and the newsletter changed.
+
+00:01:29.000 --> 00:01:36.000
+<v Ben>So on campaign, the funnel is what matters most.
+
+00:01:36.000 --> 00:01:41.000
+<v Chloe>The seo and newsletter need another review.
+
+00:01:41.000 --> 00:01:46.000
+<v Ben>So on content, the audience is what matters most.
+
+00:01:46.000 --> 00:01:52.000
+<v Chloe>Honestly the seo drives the whole launch question.
+
+00:01:52.000 --> 00:01:57.000
+<v Chloe>I looked at the funnel numbers and the newsletter changed.
+
+00:01:57.000 --> 00:02:04.000
+<v Chloe>Honestly the audience drives the whole campaign question.
+
+00:02:04.000 --> 00:02:09.000
+<v Ana>I looked at the audience numbers and the campaign changed.
+
+00:02:09.000 --> 00:02:13.000
+<v Chloe>So on newsletter, the launch is what matters most.
+
+00:02:13.000 --> 00:02:18.000
+<v Ana>So on newsletter, the launch is what matters most.
+
+00:02:18.000 --> 00:02:22.000
+<v Ben>Our launch plan depends on the content this month.
+
+00:02:22.000 --> 00:02:27.000
+<v Chloe>Our brand plan depends on the campaign this month.
+
+00:02:27.000 --> 00:02:31.000
+<v Chloe>Can we compare audience against last year's content?
+
+00:02:31.000 --> 00:02:37.000
+<v Chloe>The utilization and utilization need another review.
+
+00:02:37.000 --> 00:02:44.000
+<v Ben>The gpu and scheduler need another review.
+
+00:02:44.000 --> 00:02:52.000
+<v Ana>Can we compare cluster against last year's scheduler?
+
+00:02:52.000 --> 00:02:59.000
+<v Chloe>So on rack, the utilization is what matters most.
+
+00:02:59.000 --> 00:03:07.000
+<v Ana>So on rack, the gpu is what matters most.
+
+00:03:07.000 --> 00:03:13.000
+<v Ana>Honestly the cluster drives the whole cluster question.
+
+00:03:13.000 --> 00:03:17.000
+<v Ana>The scheduler and h100 need another review.
+
+00:03:17.000 --> 00:03:21.000
+<v Ana>Can we compare gpu against last year's rack?
+
+00:03:21.000 --> 00:03:27.000
+<v Chloe>Can we compare utilization against last year's rack?
+
+00:03:27.000 --> 00:03:33.000
+<v Ana>Honestly the scheduler drives the whole cooling question.
+
+00:03:33.000 --> 00:03:37.000
+<v Ana>I looked at the utilization numbers and the cooling changed.
+
+00:03:37.000 --> 00:03:44.000
+<v Ben>Can we compare h100 against last year's cooling?
+
+00:03:44.000 --> 00:03:52.000
+<v Chloe>Our nodes plan depends on the rack this month.
+
+00:03:52.000 --> 00:04:00.000
+<v Chloe>Honestly the scheduler drives the whole nodes question.
+
+00:04:00.000 --> 00:04:07.000
+<v Ben>Can we compare cooling against last year's cluster?
+
+00:04:07.000 --> 00:04:15.000
+<v Ana>So on scheduler, the scheduler is what matters most.
+
+00:04:15.000 --> 00:04:21.000
+<v Ben>I looked at the scheduler numbers and the cluster changed.
+
+00:04:21.000 --> 00:04:29.000
+<v Chloe>I looked at the h100 numbers and the cluster changed.
+
+00:04:29.000 --> 00:04:33.000
+<v Ana>I looked at the utilization numbers and the gpu changed.
+
+00:04:33.000 --> 00:04:40.000
+<v Chloe>Our access plan depends on the access this month.
+
+00:04:40.000 --> 00:04:45.000
+<v Chloe>I looked at the encryption numbers and the access changed.
+
+00:04:45.000 --> 00:04:49.000
+<v Ben>Can we compare compliance against last year's encryption?
+
+00:04:49.000 --> 00:04:57.000
+<v Chloe>Our audit plan depends on the audit this month.
+
+00:04:57.000 --> 00:05:04.000
+<v Ben>Honestly the audit drives the whole access question.
+
+00:05:04.000 --> 00:05:10.000
+<v Chloe>I looked at the compliance numbers and the password changed.
+
+00:05:10.000 --> 00:05:15.000
+<v Ben>I looked at the firewall numbers and the password changed.
+
+00:05:15.000 --> 00:05:22.000
+<v Ana>Our compliance plan depends on the encryption this month.
+
+00:05:22.000 --> 00:05:28.000
+<v Ben>Our token plan depends on the audit this month.
+
+00:05:28.000 --> 00:05:35.000
+<v Ben>Our breach plan depends on the compliance this month.
+
+00:05:35.000 --> 00:05:41.000
+<v Ana>The audit and password need another review.
+
+00:05:41.000 --> 00:05:49.000
+<v Ben>Can we compare access against last year's compliance?
+
+00:05:49.000 --> 00:05:54.000
+<v Chloe>So on password, the audit is what matters most.
+
+00:05:54.000 --> 00:05:59.000
+<v Chloe>I looked at the firewall numbers and the audit changed.
+
+00:05:59.000 --> 00:06:04.000
+<v Ben>So on audit, the audit is what matters most.
+
+00:06:04.000 --> 00:06:11.000
+<v Ben>Honestly the access drives the whole encryption question.
+
+00:06:11.000 --> 00:06:16.000
+<v Chloe>The firewall and audit need another review.
+
+00:06:16.000 --> 00:06:23.000
+<v Ana>So on access, the access is what matters most.
+
+00:06:23.000 --> 00:06:29.000
+<v Ana>Honestly the token drives the whole breach question.
+
+00:06:29.000 --> 00:06:35.000
+<v Ana>Honestly the access drives the whole breach question.
+
+00:06:35.000 --> 00:06:39.000
+<v Ben>Honestly the access drives the whole compliance question.
+
+00:06:39.000 --> 00:06:45.000
+<v Chloe>So on firewall, the password is what matters most.
+
+00:06:45.000 --> 00:06:52.000
+<v Chloe>Honestly the password drives the whole access question.
+
+00:06:52.000 --> 00:06:56.000
+<v Ben>The firewall and compliance need another review.
+
+00:06:56.000 --> 00:07:00.000
+<v Chloe>Can we compare compliance against last year's encryption?
+
+00:07:00.000 --> 00:07:06.000
+<v Ben>Honestly the encryption drives the whole encryption question.
+
+00:07:06.000 --> 00:07:14.000
+<v Ben>So on compliance, the encryption is what matters most.
+
+00:07:14.000 --> 00:07:19.000
+<v Chloe>I looked at the access numbers and the breach changed.
+
+00:07:19.000 --> 00:07:27.000
+<v Ben>Honestly the access drives the whole password question.
+
+00:07:27.000 --> 00:07:32.000
+<v Chloe>Our breach plan depends on the audit this month.
+
+00:07:32.000 --> 00:07:37.000
+<v Ben>I looked at the encryption numbers and the access changed.
+
+00:07:37.000 --> 00:07:44.000
+<v Ana>Can we compare interview against last year's recruiter?
+
+00:07:44.000 --> 00:07:49.000
+<v Ana>I looked at the recruiter numbers and the hiring changed.
+
+00:07:49.000 --> 00:07:57.000
+<v Chloe>Our role plan depends on the interview this month.
+
+00:07:57.000 --> 00:08:05.000
+<v Ben>Our hiring plan depends on the offer this month.
+
+00:08:05.000 --> 00:08:10.000
+<v Ben>I looked at the recruiter numbers and the hiring changed.
+
+00:08:10.000 --> 00:08:16.000
+<v Chloe>Honestly the interview drives the whole hiring question.
+
+00:08:16.000 --> 00:08:21.000
+<v Ana>So on offer, the hiring is what matters most.
+
+00:08:21.000 --> 00:08:26.000
+<v Ben>The salary and onboarding need another review.
+
+00:08:26.000 --> 00:08:34.000
+<v Ana>So on interview, the hiring is what matters most.
+
+00:08:34.000 --> 00:08:39.000
+<v Ana>The candidate and offer need another review.
+
+00:08:39.000 --> 00:08:45.000
+<v Ben>The role and candidate need another review.
+
+00:08:45.000 --> 00:08:53.000
+<v Chloe>So on hiring, the salary is what matters most.
+
+00:08:53.000 --> 00:09:00.000
+<v Ana>Can we compare salary against last year's hiring?
+
+00:09:00.000 --> 00:09:08.000
+<v Ben>I looked at the recruiter numbers and the interview changed.
+
+00:09:08.000 --> 00:09:15.000
+<v Ana>The interview and onboarding need another review.
+
+00:09:15.000 --> 00:09:22.000
+<v Ben>The interview and interview need another review.
+
+00:09:22.000 --> 00:09:28.000
+<v Ben>Can we compare recruiter against last year's role?
+
+00:09:28.000 --> 00:09:36.000
+<v Chloe>Our recruiter plan depends on the candidate this month.
+
+00:09:36.000 --> 00:09:43.000
+<v Ana>Can we compare salary against last year's interview?
+
+00:09:43.000 --> 00:09:47.000
+<v Ana>So on recruiter, the offer is what matters most.
+
+00:09:47.000 --> 00:09:52.000
+<v Ana>I looked at the salary numbers and the offer changed.
+
+00:09:52.000 --> 00:09:57.000
+<v Chloe>Can we compare hiring against last year's salary?
+
+00:09:57.000 --> 00:10:05.000
+<v Ana>So on onboarding, the role is what matters most.
+
+00:10:05.000 --> 00:10:13.000
+<v Ben>So on onboarding, the candidate is what matters most.
+
+00:10:13.000 --> 00:10:21.000
+<v Ana>Our recruiter plan depends on the candidate this month.
+
+00:10:21.000 --> 00:10:27.000
+<v Ben>So on interview, the hiring is what matters most.
+
+00:10:27.000 --> 00:10:32.000
+<v Chloe>Our hiring plan depends on the salary this month.
+
+00:10:32.000 --> 00:10:40.000
+<v Ana>Our recruiter plan depends on the hiring this month.
+
+00:10:40.000 --> 00:10:48.000
+<v Ana>Can we compare candidate against last year's hiring?
+
+00:10:48.000 --> 00:10:54.000
+<v Ben>Honestly the budget drives the whole tier question.
+
+00:10:54.000 --> 00:11:01.000
+<v Chloe>I looked at the invoice numbers and the discount changed.
+
+00:11:01.000 --> 00:11:07.000
+<v Ana>Our invoice plan depends on the budget this month.
+
+00:11:07.000 --> 00:11:14.000
+<v Ana>Honestly the budget drives the whole budget question.
+
+00:11:14.000 --> 00:11:20.000
+<v Chloe>Our budget plan depends on the annual this month.
+
+00:11:20.000 --> 00:11:28.000
+<v Ben>So on discount, the budget is what matters most.
+
+00:11:28.000 --> 00:11:36.000
+<v Ben>So on contract, the invoice is what matters most.
+
+00:11:36.000 --> 00:11:44.000
+<v Ben>Our renewal plan depends on the contract this month.
+
+00:11:44.000 --> 00:11:51.000
+<v Ben>So on discount, the renewal is what matters most.
+
+00:11:51.000 --> 00:11:58.000
+<v Ben>So on tier, the budget is what matters most.
+
+00:11:58.000 --> 00:12:04.000
+<v Chloe>I looked at the pricing numbers and the discount changed.
+
+00:12:04.000 --> 00:12:11.000
+<v Chloe>So on renewal, the annual is what matters most.
+
+00:12:11.000 --> 00:12:15.000
+<v Ben>The invoice and contract need another review.
+
+00:12:15.000 --> 00:12:23.000
+<v Ben>Our pricing plan depends on the renewal this month.
+
+00:12:23.000 --> 00:12:31.000
+<v Chloe>I looked at the invoice numbers and the tier changed.
+
+00:12:31.000 --> 00:12:36.000
+<v Chloe>So on renewal, the tier is what matters most.
+
+00:12:36.000 --> 00:12:40.000
+<v Ana>Our contract plan depends on the pricing this month.
+
+00:12:40.000 --> 00:12:48.000
+<v Ben>Honestly the renewal drives the whole contract question.
+
+00:12:48.000 --> 00:12:54.000
+<v Chloe>The renewal and pricing need another review.
+
+00:12:54.000 --> 00:13:01.000
+<v Ana>I looked at the budget numbers and the discount changed.
+
+00:13:01.000 --> 00:13:05.000
+<v Chloe>I looked at the discount numbers and the renewal changed.
+
+00:13:05.000 --> 00:13:09.000
+<v Ben>So on contract, the contract is what matters most.
+
+00:13:09.000 --> 00:13:14.000
+<v Chloe>I looked at the invoice numbers and the invoice changed.
+

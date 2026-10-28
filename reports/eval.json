@@ -1,0 +1,226 @@
+{
+  "note": "SYNTHETIC labeled transcripts from fixtures/gen.ts. Segmenter params were tuned on dev (seed 42) only; holdout (seed 7) was not used for tuning. Boundary tolerance 20 s.",
+  "dev": {
+    "meanF1": 0.842,
+    "naiveEvery90sF1": 0.3,
+    "n": 3
+  },
+  "holdout": {
+    "meanF1": 0.682,
+    "naiveEvery90sF1": 0.243,
+    "n": 8
+  },
+  "rows": {
+    "dev": [
+      {
+        "file": "synthetic-1.vtt",
+        "gold": [
+          133,
+          184
+        ],
+        "pred": [
+          37,
+          133,
+          190
+        ],
+        "precision": 0.6666666666666666,
+        "recall": 1,
+        "f1": 0.8,
+        "naiveF1": 0.5
+      },
+      {
+        "file": "synthetic-2.vtt",
+        "gold": [
+          62,
+          235,
+          402
+        ],
+        "pred": [
+          62,
+          235,
+          408
+        ],
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "naiveF1": 0
+      },
+      {
+        "file": "synthetic-3.vtt",
+        "gold": [
+          188,
+          370,
+          426,
+          511
+        ],
+        "pred": [
+          90,
+          195,
+          302,
+          376,
+          421,
+          497,
+          616
+        ],
+        "precision": 0.5714285714285714,
+        "recall": 1,
+        "f1": 0.7272727272727273,
+        "naiveF1": 0.4
+      }
+    ],
+    "holdout": [
+      {
+        "file": "holdout-1.vtt",
+        "gold": [
+          136,
+          179,
+          261
+        ],
+        "pred": [
+          86,
+          136,
+          179,
+          257,
+          306
+        ],
+        "precision": 0.6,
+        "recall": 1,
+        "f1": 0.7499999999999999,
+        "naiveF1": 0.5714285714285715
+      },
+      {
+        "file": "holdout-2.vtt",
+        "gold": [
+          134,
+          278,
+          327
+        ],
+        "pred": [
+          39,
+          102,
+          145,
+          273,
+          327
+        ],
+        "precision": 0.6,
+        "recall": 1,
+        "f1": 0.7499999999999999,
+        "naiveF1": 0.28571428571428575
+      },
+      {
+        "file": "holdout-3.vtt",
+        "gold": [
+          173,
+          224
+        ],
+        "pred": [
+          60,
+          173,
+          241,
+          341
+        ],
+        "precision": 0.5,
+        "recall": 1,
+        "f1": 0.6666666666666666,
+        "naiveF1": 0.3333333333333333
+      },
+      {
+        "file": "holdout-4.vtt",
+        "gold": [
+          62,
+          141,
+          293,
+          337
+        ],
+        "pred": [
+          62,
+          145,
+          297
+        ],
+        "precision": 1,
+        "recall": 0.75,
+        "f1": 0.8571428571428571,
+        "naiveF1": 0
+      },
+      {
+        "file": "holdout-5.vtt",
+        "gold": [
+          158,
+          313,
+          417,
+          491
+        ],
+        "pred": [
+          21,
+          112,
+          275,
+          329,
+          411,
+          491,
+          547
+        ],
+        "precision": 0.42857142857142855,
+        "recall": 0.75,
+        "f1": 0.5454545454545454,
+        "naiveF1": 0
+      },
+      {
+        "file": "holdout-6.vtt",
+        "gold": [
+          85,
+          239,
+          402
+        ],
+        "pred": [
+          85,
+          190,
+          239,
+          305,
+          396
+        ],
+        "precision": 0.6,
+        "recall": 1,
+        "f1": 0.7499999999999999,
+        "naiveF1": 0.25
+      },
+      {
+        "file": "holdout-7.vtt",
+        "gold": [
+          150,
+          233
+        ],
+        "pred": [
+          39,
+          155,
+          254,
+          323
+        ],
+        "precision": 0.25,
+        "recall": 0.5,
+        "f1": 0.3333333333333333,
+        "naiveF1": 0
+      },
+      {
+        "file": "holdout-8.vtt",
+        "gold": [
+          151,
+          273,
+          457,
+          648
+        ],
+        "pred": [
+          142,
+          269,
+          359,
+          439,
+          496,
+          640
+        ],
+        "precision": 0.6666666666666666,
+        "recall": 1,
+        "f1": 0.8,
+        "naiveF1": 0.5
+      }
+    ]
+  }
+}

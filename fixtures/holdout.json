@@ -1,0 +1,116 @@
+[
+  {
+    "file": "holdout-1.vtt",
+    "topics": [
+      "hiring",
+      "marketing",
+      "roadmap",
+      "security"
+    ],
+    "goldBoundaries": [
+      136,
+      179,
+      261
+    ]
+  },
+  {
+    "file": "holdout-2.vtt",
+    "topics": [
+      "roadmap",
+      "pricing",
+      "hiring",
+      "gpus"
+    ],
+    "goldBoundaries": [
+      134,
+      278,
+      327
+    ]
+  },
+  {
+    "file": "holdout-3.vtt",
+    "topics": [
+      "pricing",
+      "security",
+      "roadmap"
+    ],
+    "goldBoundaries": [
+      173,
+      224
+    ]
+  },
+  {
+    "file": "holdout-4.vtt",
+    "topics": [
+      "security",
+      "pricing",
+      "marketing",
+      "gpus",
+      "hiring"
+    ],
+    "goldBoundaries": [
+      62,
+      141,
+      293,
+      337
+    ]
+  },
+  {
+    "file": "holdout-5.vtt",
+    "topics": [
+      "pricing",
+      "security",
+      "roadmap",
+      "gpus",
+      "marketing"
+    ],
+    "goldBoundaries": [
+      158,
+      313,
+      417,
+      491
+    ]
+  },
+  {
+    "file": "holdout-6.vtt",
+    "topics": [
+      "hiring",
+      "security",
+      "roadmap",
+      "marketing"
+    ],
+    "goldBoundaries": [
+      85,
+      239,
+      402
+    ]
+  },
+  {
+    "file": "holdout-7.vtt",
+    "topics": [
+      "gpus",
+      "marketing",
+      "hiring"
+    ],
+    "goldBoundaries": [
+      150,
+      233
+    ]
+  },
+  {
+    "file": "holdout-8.vtt",
+    "topics": [
+      "marketing",
+      "gpus",
+      "security",
+      "hiring",
+      "pricing"
+    ],
+    "goldBoundaries": [
+      151,
+      273,
+      457,
+      648
+    ]
+  }
+]

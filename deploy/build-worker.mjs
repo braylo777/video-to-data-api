@@ -1,0 +1,16 @@
+import { build } from "esbuild";
+import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+mkdirSync("dist", { recursive: true });
+const demo = readFileSync("fixtures/demo.vtt", "utf8");
+const web = await build({ entryPoints: ["web/app.ts"], bundle: true, minify: true, format: "iife", write: false, banner: { js: `globalThis.__DEMO__=${JSON.stringify(demo)};` } });
+writeFileSync("dist/app.js", web.outputFiles[0].text);
+writeFileSync("dist/entry.ts", `import { handleApi } from "../src/api";
+const H = ${JSON.stringify(readFileSync("web/index.html", "utf8"))};
+const J = ${JSON.stringify(web.outputFiles[0].text)};
+export default { async fetch(q: Request) { const p = new URL(q.url).pathname;
+  if (p === "/") return new Response(H, { headers: { "content-type": "text/html; charset=utf-8", "content-security-policy": "default-src 'self'; style-src 'unsafe-inline'" } });
+  if (p === "/app.js") return new Response(J, { headers: { "content-type": "application/javascript" } });
+  if (p.startsWith("/v1/")) return handleApi(q);
+  return new Response("not found", { status: 404 }); } };`);
+await build({ entryPoints: ["dist/entry.ts"], bundle: true, minify: true, format: "esm", outfile: "dist/worker.js" });
+console.log("built");

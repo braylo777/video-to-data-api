@@ -1,0 +1,44 @@
+[
+  {
+    "file": "synthetic-1.vtt",
+    "topics": [
+      "pricing",
+      "hiring",
+      "gpus"
+    ],
+    "goldBoundaries": [
+      133,
+      184
+    ]
+  },
+  {
+    "file": "synthetic-2.vtt",
+    "topics": [
+      "marketing",
+      "security",
+      "roadmap",
+      "pricing"
+    ],
+    "goldBoundaries": [
+      62,
+      235,
+      402
+    ]
+  },
+  {
+    "file": "synthetic-3.vtt",
+    "topics": [
+      "gpus",
+      "roadmap",
+      "hiring",
+      "security",
+      "marketing"
+    ],
+    "goldBoundaries": [
+      188,
+      370,
+      426,
+      511
+    ]
+  }
+]

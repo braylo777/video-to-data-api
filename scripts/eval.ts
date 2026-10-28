@@ -1,0 +1,12 @@
+import { readFileSync, writeFileSync } from "node:fs";
+import { parseCaptions } from "../src/parse";
+import { extract, boundaryF1 } from "../src/extract";
+const run = (idx: any[]) => { const rows = idx.map((f: any) => { const cues = parseCaptions(readFileSync(`fixtures/${f.file}`, "utf8")); const x = extract(cues);
+  const pred = x.chapters.slice(1).map(c => c.start); const naive: number[] = []; for (let t = 90; t < x.duration - 30; t += 90) naive.push(t);
+  return { file: f.file, gold: f.goldBoundaries, pred, ...boundaryF1(pred, f.goldBoundaries), naiveF1: boundaryF1(naive, f.goldBoundaries).f1 }; });
+const m = (k: string) => +(rows.reduce((a: number, r: any) => a + r[k], 0) / rows.length).toFixed(3);
+  return { meanF1: m("f1"), naiveEvery90sF1: m("naiveF1"), n: rows.length, rows }; };
+const dev = run(JSON.parse(readFileSync("fixtures/index.json", "utf8")));
+const holdout = run(JSON.parse(readFileSync("fixtures/holdout.json", "utf8")));
+const out = { note: "SYNTHETIC labeled transcripts from fixtures/gen.ts. Segmenter params were tuned on dev (seed 42) only; holdout (seed 7) was not used for tuning. Boundary tolerance 20 s.", dev: { meanF1: dev.meanF1, naiveEvery90sF1: dev.naiveEvery90sF1, n: dev.n }, holdout: { meanF1: holdout.meanF1, naiveEvery90sF1: holdout.naiveEvery90sF1, n: holdout.n }, rows: { dev: dev.rows, holdout: holdout.rows } };
+writeFileSync("reports/eval.json", JSON.stringify(out, null, 2)); console.log(JSON.stringify({ dev: out.dev, holdout: out.holdout }));

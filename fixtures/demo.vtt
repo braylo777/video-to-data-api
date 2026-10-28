@@ -1,0 +1,40 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.000
+<v Maya Chen>Welcome everyone, this is the Q3 2026 planning sync for Northwind Labs.
+
+00:00:06.000 --> 00:00:13.000
+<v Maya Chen>First, pricing. The annual contract renewal brings invoice totals to $48,000.
+
+00:00:13.000 --> 00:00:20.000
+<v Raj Patel>The pricing tier change gave a 12% discount on renewal for annual contracts.
+
+00:00:20.000 --> 00:00:27.000
+<v Raj Patel>Invoice disputes on pricing dropped, and contract renewal budget looks stable.
+
+00:00:27.000 --> 00:00:34.000
+<v Maya Chen>Good. Raj will send the revised pricing contract by October 30.
+
+00:00:34.000 --> 00:00:41.000
+<v Maya Chen>Next topic, the GPU cluster. Utilization on the H100 nodes hit 91 percent.
+
+00:00:41.000 --> 00:00:48.000
+<v Lena Ortiz>The scheduler backfill helped cluster utilization, but rack cooling is tight.
+
+00:00:48.000 --> 00:00:55.000
+<v Lena Ortiz>Two nodes throttled on cooling, so the cluster scheduler drained them.
+
+00:00:55.000 --> 00:01:02.000
+<v Lena Ortiz>We need to order rack cooling parts for the GPU nodes next week.
+
+00:01:02.000 --> 00:01:09.000
+<v Maya Chen>Last, hiring. We have three candidate interviews for the recruiter role.
+
+00:01:09.000 --> 00:01:16.000
+<v Raj Patel>Interview feedback on the candidate is strong, and the salary offer is ready.
+
+00:01:16.000 --> 00:01:23.000
+<v Raj Patel>Onboarding for the hiring offer starts once the candidate signs.
+
+00:01:23.000 --> 00:01:30.000
+<v Maya Chen>Action item: Lena should post the hiring recap at northwind.dev and email ops@northwind.dev.

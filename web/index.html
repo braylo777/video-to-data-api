@@ -1,0 +1,8 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Video-to-Data API</title>
+<style>body{font:14px/1.5 system-ui,sans-serif;margin:0;background:#0b0f17;color:#e6e9ef}main{max-width:1050px;margin:auto;padding:24px}.muted{color:#8b93a7}table{border-collapse:collapse}td{padding:3px 10px;border-bottom:1px solid #222a3a}textarea{width:100%;height:220px;background:#0b0f17;color:#e6e9ef;border:1px solid #333c52;border-radius:6px;font:12px monospace}button{background:#4f8cff;color:#fff;border:0;border-radius:6px;padding:6px 12px;cursor:pointer}.card{background:#121826;border:1px solid #222a3a;border-radius:10px;padding:16px;margin:14px 0}pre{white-space:pre-wrap;font-size:12px;color:#b8c0d4}a{color:#4f8cff}code{color:#b8c0d4}</style></head><body><main>
+<h1>Video-to-Data API</h1>
+<p class="muted">Turns a video's caption track (WebVTT or SRT) into structured JSON: chapters, summary, action items, entities and talk time. It reads captions, not pixels. The demo meeting is fictional. <a href="https://github.com/braylo777/video-to-data-api">Source, SDK, eval</a></p>
+<div class="card"><b>API</b>: <code>POST /v1/extract {"captions": "&lt;WebVTT or SRT&gt;"}</code> · <code>GET /v1/health</code><br><b>SDK</b>: <code>new VideoToData().extract(vtt)</code></div>
+<div class="card"><textarea id="in"></textarea><br><button id="go">Extract</button> <span id="status" class="muted"></span></div>
+<div class="card" id="out"></div>
+</main><script src="/app.js"></script></body></html>
