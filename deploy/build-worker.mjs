@@ -8,7 +8,7 @@ writeFileSync("dist/entry.ts", `import { handleApi } from "../src/api";
 const H = ${JSON.stringify(readFileSync("web/index.html", "utf8"))};
 const J = ${JSON.stringify(web.outputFiles[0].text)};
 export default { async fetch(q: Request) { const p = new URL(q.url).pathname;
-  if (p === "/") return new Response(H, { headers: { "content-type": "text/html; charset=utf-8", "content-security-policy": "default-src 'self'; style-src 'unsafe-inline'" } });
+  if (p === "/") return new Response(H, { headers: { "content-type": "text/html; charset=utf-8", "content-security-policy": "default-src 'self'; style-src 'unsafe-inline'; img-src 'self' data:" } });
   if (p === "/app.js") return new Response(J, { headers: { "content-type": "application/javascript" } });
   if (p.startsWith("/v1/")) return handleApi(q);
   return new Response("not found", { status: 404 }); } };`);
